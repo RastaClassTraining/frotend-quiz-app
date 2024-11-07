@@ -35,7 +35,7 @@ const AppLayout = () => {
           alt="pattern-1"
         />
       </div>
-      <div className="container mx-auto px-4 relative z-10 pt-10 lg:pt-20 flex flex-col gap-14 lg:gap-24">
+      <div className="container mx-auto px-4 relative z-10 py-10 lg:py-20  flex flex-col gap-14 lg:gap-24">
         <header
           className={`flex items-center ${
             quizType ? "justify-between" : "justify-end"

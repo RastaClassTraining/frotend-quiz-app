@@ -57,7 +57,7 @@ const ResultPage = () => {
 
           <div>
             <h1 className="text-[5.5rem] md:text-[9rem] leading-[1] text-semibold text-darkNavy dark:text-white">
-              {data?.correct || "--"}
+              {data?.correct || 0}
             </h1>
             <p className="">out of {data?.total || "--"}</p>
           </div>
